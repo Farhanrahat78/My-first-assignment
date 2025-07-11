@@ -1,4 +1,7 @@
 
+*margin{0px}
+
+
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -15,9 +18,10 @@
 }
 
 
+
 .image1{background-image:url('../images/Hero-bg.png') ;
 height:800px;
-width: none;
+max-width: 1240;
 
 }
 /* nav style */
@@ -58,27 +62,124 @@ font-weight: bold;
 }
 .banner-profile-pic{
     border-radius:48px ;
-    width: 400px;
+    max-width: 1240px;
         height: 330px;}
     
 .banner{
     justify-content: space-between;
     margin: 100px;
     display: flex;
-    gap: 200px;
+    gap: 20px;
 }
 .monitor{
     display: flex;
     justify-content: center;
-    gap:150px ;
+    gap:200px ;
+    max-width: 1140;
 
 }
 .public{text-align: center;
     background-color: #EAEBFE;
     border-radius: 20px;
     max-width: 900px;
-    margin: 60px auto;
-    padding: 50px 30px;
+    margin: 20px auto;
+    padding: 50px 120px;
 
 
 }
+
+/* women */
+.women1{
+    display: flex;
+    gap: 20px;
+}
+.review-container{display: flex;
+
+    margin: 100px
+
+    
+}
+.wimage{
+    
+}
+.review1{padding: 20px;
+    height: 250px;
+    border-radius:20px ;
+    margin: 50px;
+    
+background-color:rgba(245, 240, 240, 0.434);}
+
+.say{text-align: center;
+margin-top: 170px;
+
+}
+
+.this{font-size:normal;
+    color: black);
+}
+
+
+.last-image{text-align: center;
+    gap: 0px;
+
+}
+
+.caption{font-weight: bold;
+font-size: 50px; 
+margin: 10px;}
+.caption2{font-weight:487 ;
+font height: 22;}
+
+.image3{
+    margin: 20px;
+    border-radius:40px ;
+    
+}
+
+.form1{display: flex;
+justify-content: center;
+gap: 20px;
+ padding: 110px;   
+}
+
+.dialogue{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.box{
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
+
+}
+.last-logo{
+    color:rgb(78, 71, 255);
+
+text-align: center;
+font-size: 60px;
+}
+
+nav ul{ display: flex;
+    
+
+}
+
+nav li{ list-style: none;
+margin: 15px;
+}
+
+nav li a{ text-decoration: none;
+    color: black;
+
+}
+.last-step{text-align: center;
+justify-content: center;
+align-items: center;}
+.last2{
+    width: 530;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    gap: 20px;
+padding: 20px;}
