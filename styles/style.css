@@ -161,13 +161,13 @@ gap: 20px;
     color:rgb(78, 71, 255);
 
 text-align: center;
-font-size: 60px;
+    font-size: 60px;}
 
 
-nav li{ list-style: none;
+ul li {list-style: none;
 margin: 15px;
 }
-}
+
 
 nav ul{ display: flex;
     
@@ -187,5 +187,6 @@ align-items: center;}
     display: flex;
     flex-direction: column ;
     align-items: center;
-    gap: 20px;
+    gap: 100px;
 padding: 20px;}
+ 
